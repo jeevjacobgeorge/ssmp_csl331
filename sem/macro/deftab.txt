@@ -1,0 +1,3 @@
+	CLEAR	X
+	CLEAR	Y
+	STA	INDEV

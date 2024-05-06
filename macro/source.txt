@@ -1,0 +1,9 @@
+COPY	START	A000
+STORE   MACRO   F1,N1
+        STA	F1
+        STL	N1
+        MEND
+VAR     BYTE	X'6996'
+        STL	CLOOP
+CLOOP   STORE   F1,N1
+        END	A000
